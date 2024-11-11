@@ -10,10 +10,10 @@ class SecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center( // Центрування заголовка
+        title: Center( 
           child: Text('Text Previewer'),
         ),
-        backgroundColor: Theme.of(context).primaryColor, // Використання кольору індіго
+        backgroundColor: Theme.of(context).primaryColor, 
       ),
       body: Center(
         child: Column(
@@ -23,7 +23,7 @@ class SecondScreen extends StatelessWidget {
               text,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 fontSize: fontSize,
-              ), // Використання текстової теми з адаптацією розміру шрифту
+              ), 
             ),
             SizedBox(height: 32),
             Row(
@@ -33,7 +33,7 @@ class SecondScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context, 'ok');
                   },
-                  child: Text('Ok'), // Текстова тема автоматично застосовується
+                  child: Text('Ok'),
                 ),
                 ElevatedButton(
                   onPressed: () {

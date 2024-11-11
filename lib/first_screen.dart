@@ -34,7 +34,7 @@ class _FirstScreenState extends State<FirstScreen> {
           actionsAlignment: MainAxisAlignment.center,
           actions: [
             Align(
-              alignment: Alignment.bottomRight, // Вирівнювання кнопки справа
+              alignment: Alignment.bottomRight, 
               child: TextButton(
                 child: Text('OK'),
                 onPressed: () {
@@ -109,7 +109,7 @@ class _FirstScreenState extends State<FirstScreen> {
                   floatingLabelBehavior: FloatingLabelBehavior.always,
                 ),
               ),
-              // Зменшено відстань між TextField і Slider
+              
               SizedBox(height: 8),
               Row(
                 children: [

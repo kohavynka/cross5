@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.indigo,
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.indigo, // Фіолетовий колір кнопок
-            foregroundColor: Colors.white, // Білий колір тексту
+            backgroundColor: Colors.indigo,
+            foregroundColor: Colors.white, 
             padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
           ),
         ),
